@@ -35,31 +35,36 @@
             {% endfor %}
           {% endif %}
 
+          {% if author.prefix %}
+            {% capture author_str %}{{author.first}} {{author.prefix}} {{author.last}}{% endcapture %}
+          {% else %}
+            {% capture author_str %}{{author.first}} {{author.last}}{% endcapture %}
+          {% endif %}
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em class="author">{{author.first}} {{author.last}}</em>
+              <em class="author">{{author_str}}</em>
             {% else %}
-              {{author.first}} {{author.last}}
+              {{author_str}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em class="author">{{author.first}} {{author.last}}</em>,
+                <em class="author">{{author_str}}</em>,
               {% else %}
                 {% if coauthor_url %}
-                  <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
+                  <a href="{{coauthor_url}}" target="_blank">{{author_str}}</a>,
                 {% else %}
-                  {{author.first}} {{author.last}},
+                  {{author_str}},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em class="author">{{author.first}} {{author.last}}</em>
+                and <em class="author">{{author_str}}</em>
               {% else %}
                 {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                  and <a href="{{coauthor_url}}" target="_blank">{{author_str}}</a>
                 {% else %}
-                  and {{author.first}} {{author.last}}
+                  and {{author_str}}
                 {% endif %}
               {% endif %}
             {% endunless %}
