@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-06-30 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+[Talked about](https://anchor.fm/chelonia/episodes/Interview-series-of-LIGATE-project-with-Janani-Durairaj-e14vl4h) what I'll be working on as part of the [LIGATE project](https://www.ligateproject.eu/).

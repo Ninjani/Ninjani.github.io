@@ -2,10 +2,44 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Material for courses and workshops
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="courses">
+  {% if site.teaching  %}
+    <div class="table-responsive">
+      <table class="table table-sm">
+      {% assign courses = site.teaching | reverse %}
+      {% for item in courses %}
+        <tr>
+          <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+            {% if item.inline %}
+            <td>
+              {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+            </td>
+            <td>
+              {% if item.slides %}
+                <a class="badge teaching-button waves-effect center font-weight-light mr-1" href="{{ item.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>
+              {% endif %}
+              {% if item.html %}
+                <a class="badge teaching-button waves-effect center font-weight-light mr-1" href="{{ item.html }}" target="_blank">Material</a>
+              {% endif %}
+            </td>
+            {% else %}
+              <td>
+              {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+              </td>
+              <td>                
+                <a class="badge course-title teaching-button waves-effect center font-weight-light mr-1" href="{{ item.url | relative_url }}">Material</a>            
+            </td>
+            {% endif %}
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No courses so far...</p>
+  {% endif %}
+</div>
 
-Organize your courses by years, topics, or universities, however you like!
