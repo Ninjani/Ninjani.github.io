@@ -24,7 +24,7 @@ hr {
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-theme-color-2);
     text-decoration: underline;
   }
   &:hover:after :not(.nav-item.dropdown) {
@@ -64,9 +64,8 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: 2rem;
   width: 100%;
-
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -411,8 +410,21 @@ footer.sticky-bottom {
   }
 
 // Publications
-
+.bib-button {
+    background-color: var(--global-theme-color-2);
+    color: var(--global-text-color);
+    font-weight: normal;
+}
 .publications {
+
+  h2.bibliography {
+    color: var(--global-theme-color-2);
+    border-top: 1px solid $grey-color-light;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: right;
+  }
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);

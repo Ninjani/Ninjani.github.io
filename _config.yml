@@ -12,9 +12,11 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
+<<<<<<< HEAD
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+=======
+>>>>>>> 2cbba637a8a466cae39bd2ab1d0d29a08dd04685
 icon: J # the emoji used as the favicon
 url: https://Ninjani.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -87,7 +89,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+# disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -214,6 +216,7 @@ scholar:
   type_order: [ unpublished, article, inbook, book, misc, report, conference, incollections, inproceedings, proceedings, phdthesis ]
   type_names: { unpublished: working papers, report: reports, article: journal articles,
                 inproceedings: conference articles & others,  thesis: theses}
+<<<<<<< HEAD
 
 
 # -----------------------------------------------------------------------------
@@ -232,6 +235,8 @@ responsive_image:
   # Strip EXIF and other JPEG profiles. Helps to minimize JPEG size.
   strip: true
 
+=======
+>>>>>>> 2cbba637a8a466cae39bd2ab1d0d29a08dd04685
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
