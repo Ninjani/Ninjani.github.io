@@ -8,8 +8,6 @@ authors:
 title: An Introduction to Numba for Bioinformatics
 ---
 
-Authors: Janani Durairaj and Mehmet Akdel
-
 # Test Installation
 
 
