@@ -4,9 +4,10 @@ date:   2019-06-18 16:41:16
 inline: false
 title: Interactive Data Visualization with Dash
 url: 
-authors: [Durairaj, Janani and Akdel, Mehmet]
+authors: 
+    - name: Mehmet Akdel
+    - name: Janani Durairaj
 ---
-Authors: Janani Durairaj and Mehmet Akdel
 
 Required python packages for this workshop:
 

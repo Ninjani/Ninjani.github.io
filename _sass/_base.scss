@@ -415,6 +415,21 @@ footer.sticky-bottom {
     color: var(--global-text-color);
     font-weight: normal;
 }
+.author {
+  font-size: 14px;
+  a {
+    border-bottom: 1px dashed var(--global-theme-color);
+    &:hover {
+        border-bottom-style: solid;
+        text-decoration: none;
+    }
+  }
+  > em {
+    font-style: normal;
+    font-weight: bold;
+    color: var(--global-theme-color);
+  }
+}
 .publications {
 
   h2.bibliography {
@@ -478,21 +493,7 @@ footer.sticky-bottom {
       .title {
         font-weight: bold;
       }
-      .author {
-        font-size: 14px;
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-          &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
-          }
-        }
-        > em {
-          font-style: normal;
-          font-weight: bold;
-          color: var(--global-theme-color);
-        }
-      }
+
       .periodical {
         font-size: 14px;
         line-height: 1.2em;

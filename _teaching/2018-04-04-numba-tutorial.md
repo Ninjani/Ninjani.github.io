@@ -2,8 +2,10 @@
 layout: post
 date:   2018-04-04 16:40:16
 inline: false
+authors: 
+    - name: Janani Durairaj
+    - name: Mehmet Akdel
 title: An Introduction to Numba for Bioinformatics
-authors: [Durairaj, Janani and Akdel, Mehmet]
 ---
 
 Authors: Janani Durairaj and Mehmet Akdel

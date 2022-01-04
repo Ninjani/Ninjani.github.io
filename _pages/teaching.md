@@ -17,6 +17,7 @@ nav: true
             {% if item.inline %}
             <td>
               {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+            {% include authors.html %}
             </td>
             <td>
               {% if item.slides %}
@@ -29,6 +30,7 @@ nav: true
             {% else %}
               <td>
               {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
+              {% include authors.html %}
               </td>
               <td>                
                 <a class="badge course-title teaching-button waves-effect center font-weight-light mr-1" href="{{ item.url | relative_url }}">Material</a>            
