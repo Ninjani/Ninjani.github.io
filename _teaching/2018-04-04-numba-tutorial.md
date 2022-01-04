@@ -3,7 +3,10 @@ layout: post
 date:   2018-04-04 16:40:16
 inline: false
 title: An Introduction to Numba for Bioinformatics
+authors: [Durairaj, Janani and Akdel, Mehmet]
 ---
+
+Authors: Janani Durairaj and Mehmet Akdel
 
 # Test Installation
 
