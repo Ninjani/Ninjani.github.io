@@ -3,10 +3,12 @@ layout: page
 permalink: /publications/
 title: publications
 description: <nobr><em>*</em></nobr> denotes joint lead authorship, <nobr><em>#</em></nobr> denotes joint corresponding authorship 
-years: [2021, 2020, 2019]
+years: [2023, 2022, 2021, 2020, 2019]
 nav: true
 ---
-
+<!-- _pages/publications.md -->
 <div class="publications">
- {% bibliography --template bib --group_by type,year --group_order ascending,descending %}
+
+{% bibliography -f {{ site.scholar.bibliography }} %}
+
 </div>

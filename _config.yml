@@ -212,7 +212,9 @@ scholar:
   order: descending
   type_order: [ unpublished, article, inbook, book, misc, report, conference, incollections, inproceedings, proceedings, phdthesis ]
   type_names: { unpublished: working papers, report: reports, article: journal articles,
-                inproceedings: conference articles & others,  thesis: theses}
+                inproceedings: conference articles & others,  thesis: theses, book: book chapters}
+  group_by: type,year
+  group_order: ascending,descending
 
 
 # -----------------------------------------------------------------------------
