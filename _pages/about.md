@@ -15,4 +15,4 @@ social: false  # includes social icons at the bottom of the page
 ---
 I'm a postdoctoral researcher in Torsten Schwede's <em>[Protein Bioinformatics in 3D](https://www.biozentrum.unibas.ch/research/research-groups/research-groups-a-z/overview/unit/research-group-torsten-schwede)</em> research group at the Biozentrum, University of Basel.
 I work at the interface of protein structural bioinformatics and machine learning, developing efficient algorithms and 
-software to represent, explore and understand protein structures for applications ranging from enzyme engineering to drug discovery.
+software to represent, explore and understand protein structures for applications such as enzyme engineering, drug discovery and biomedicine.
