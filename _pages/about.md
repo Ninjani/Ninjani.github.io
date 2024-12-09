@@ -19,7 +19,8 @@ software to represent, explore and understand protein structures for application
 
 
 The Picky Binders team:
+<br>
 <img src="assets/img/picky_binders.png" width="500"/>
 
 
-Find me on Bluesky as [@ninjani.bsky.social](https://bsky.app/profile/ninjani.bsky.social)!
+Find me on Bluesky as [@ninjani.bsky.social](https://bsky.app/profile/ninjani.bsky.social)
