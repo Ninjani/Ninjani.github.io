@@ -6,4 +6,4 @@ inline: true
 
 Started as an [Ambizione Project Leader](https://www.biozentrum.unibas.ch/news/detail/two-new-snsf-ambizione-fellows-at-the-biozentrum), bringing biological context to protein deep learning models, with my team [the "Picky Binders"](https://www.biozentrum.unibas.ch/research/research-groups/project-leaders-a-z/overview/unit/research-group-durairaj-j)
 
-![Picky Binders](assets/img/picky_binders.png)
+<img src="assets/img/picky_binders.png" width="200"/>
