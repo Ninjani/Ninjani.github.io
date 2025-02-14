@@ -395,4 +395,18 @@ Publisher: Nature Publishing Group},
   abstract={Protein-ligand interactions (PLI) are foundational to small molecule drug design. With computational methods striving towards experimental accuracy, there is a critical demand for a well-curated and diverse PLI dataset. Existing datasets are often limited in size and diversity, and commonly used evaluation sets suffer from training information leakage, hindering the realistic assessment of method generalization capabilities. To address these shortcomings, we present PLINDER, the largest and most annotated dataset to date, comprising 449,383 PLI systems, each with over 500 annotations, similarity metrics at protein, pocket, interaction and ligand levels, and paired unbound (apo) and predicted structures. We propose an approach to generate training and evaluation splits that minimizes task-specific leakage and maximizes test set quality, and compare the resulting performance of DiffDock when retrained with different kinds of splits.}
 }
 
+@unpublished{vskrinjar2025have,
+  title={Have protein-ligand co-folding methods moved beyond memorisation?},
+  author={{\v{S}}krinjar, Peter and Eberhardt, J{\'e}r{\^o}me and Durairaj, Janani and Schwede, Torsten},
+  journal={bioRxiv},
+  preprint={https://doi.org/10.1101/2025.02.03.636309},
+  doi={10.1101/2025.02.03.636309},
+  code={https://github.com/plinder-org/runs-n-poses},
+  pages={2025--02},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory},
+  abstract={Deep learning has driven major breakthroughs in protein structure prediction, however the next critical advance is accurately predicting how proteins interact with other molecules, especially small molecule ligands, to enable real-world applications such as drug discovery and design. Recent deep learning all-atom methods have been built to address this challenge, but evaluating their performance on the prediction of protein-ligand complexes has been inconclusive due to the lack of relevant benchmarking datasets. Here we present a comprehensive evaluation of four leading all-atom cofolding deep learning methods using our newly introduced benchmark dataset Runs N’ Poses, which comprises 2,600 high-resolution protein-ligand systems released after the training cutoff used by these methods. We demonstrate that current co-folding approaches largely memorise ligand poses from their training data, hindering their use for de novo drug design. This limitation is especially pronounced for ligands that have only been seen binding in one pocket, whereas more promiscuous ligands such as cofactors show moderately improved performance. With this work and benchmark dataset, we aim to accelerate progress in the field by allowing for a more realistic assessment of the current state-of-the-art deep learning methods for predicting protein-ligand interactions.},
+  selected={true},
+}
+
 }
