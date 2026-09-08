@@ -10,17 +10,11 @@ profile:
   address: 
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false
 social: false  # includes social icons at the bottom of the page
 ---
-I'm a project leader working on [bringing biochemical context to protein deep learning models](https://www.biozentrum.unibas.ch/research/research-groups/project-leaders-a-z/overview/unit/research-group-durairaj-j), in Torsten Schwede's <em>[Protein Bioinformatics in 3D](https://www.biozentrum.unibas.ch/research/research-groups/research-groups-a-z/overview/unit/research-group-torsten-schwede)</em> research group at the Biozentrum, University of Basel.
-I work at the interface of protein structural bioinformatics and machine learning, developing efficient algorithms and 
-software to represent, explore and understand protein structures for applications such as enzyme engineering, drug discovery and biomedicine.
+I'm an Assistant Professor in the [Department of Computational Biology](https://www.unil.ch/dbc/en/home.html) at the [University of Lausanne](https://www.unil.ch).
 
+We work on context-aware deep learning for protein structure, interaction, and design.
 
-The Picky Binders team:
-<br>
-<img src="assets/img/picky_binders.png" width="500"/>
-
-
-Find me on Bluesky as [@ninjani.bsky.social](https://bsky.app/profile/ninjani.bsky.social)
+See our [group page]({{ site.work_url }}).

@@ -6,9 +6,9 @@ title: Jay # the website title (if blank, full name will be used instead)
 first_name: Janani
 middle_name:
 last_name: Durairaj
-email: janani.durairaj@unibas.ch
+email: janani.durairaj@unil.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Computational structural biology postdoc @ Biozentrum, University of Basel
+  Janani Durairaj — Assistant Professor, Department of Computational Biology, University of Lausanne.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -53,14 +53,14 @@ twitter_username: janani_hex # your Twitter handle
 github_username: Ninjani # your GitHub user name
 gitlab_username: ninjani23 # your GitLab user name
 linkedin_username: # your LinkedIn user name
-scholar_userid: PQ-my-kAAAAJ&hl # your Google Scholar ID
+scholar_userid: PQ-my-kAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-1698-4556 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blog_url: https://out-of-cheese-error.netlify.app/ # your blog URL
-work_url: https://www.biozentrum.unibas.ch/research/research-groups/project-leaders-a-z/overview/unit/research-group-durairaj-j # work page URL
+work_url: https://pickybinders.org # group website
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url

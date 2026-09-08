@@ -43,6 +43,7 @@
           </li>
           {% endif %}
           <!-- Other pages -->
+          <li class="nav-item"><a class="nav-link" href="{{ site.work_url }}">group ↗</a></li>
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
